@@ -30,8 +30,8 @@ Make sure you have **Node.js (>=14.x)** installed.
 ### Steps to Run the Project
 ```sh
 # Clone the repository
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/nabil-alsaadi/react-dashboard.git
+cd react-dashboard
 
 # Install dependencies
 npm install
