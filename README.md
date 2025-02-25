@@ -1,46 +1,80 @@
-# Getting Started with Create React App
+# React + Redux Toolkit + Tailwind Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project is a React-based web application utilizing Redux Toolkit for state management and Tailwind CSS for styling. It fetches data from [DummyJSON API](https://dummyjson.com/) and provides a user and product management system with filtering, searching, and pagination functionalities.
 
-## Available Scripts
+## Features
+- **Users & Products Pages**: Display users and products in a tabular format.
+- **Reusable Components**:
+  - `DataTable` for displaying data.
+  - `Pagination` for managing pagination.
+  - `SearchBar` for client-side searching.
+  - `FilterBar` for server-side filtering.
+  - `PageSizeSelector` for selecting the number of entries per page.
+- **Filters & Search**:
+  - Search filters work on the client-side.
+  - API filters reset other filters when a new one is applied.
+- **Sidebar Navigation**: Expandable and collapsible sidebar for easy navigation.
 
-In the project directory, you can run:
+## Tech Stack
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **State Management**: Redux Toolkit
+- **API Requests**: Axios
+- **Routing**: React Router DOM
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
+Make sure you have **Node.js (>=14.x)** installed.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Steps to Run the Project
+```sh
+# Clone the repository
+git clone <repository-url>
+cd <repository-folder>
 
-### `npm test`
+# Install dependencies
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Start the development server
+npm start
+```
 
-### `npm run build`
+The application will be available at `http://localhost:3000`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
+```
+├── src
+│   ├── components        # Reusable UI components
+│   ├── pages             # Page components (Users, Products)
+│   ├── store             # Redux slices
+│   ├── constants         # Constants and configurations
+│   ├── App.tsx           # Main app entry point
+│   └── index.tsx         # Root file
+└── README.md             # Project documentation
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## API Endpoints Used
+- **Users**: `https://dummyjson.com/users`
+- **Products**: `https://dummyjson.com/products`
+- **Filters & Search**:
+  - `GET /users/filter?key={key}&value={value}`
+  - `GET /products/search?q={query}`
+  - `GET /products/category/{category}`
+  - `GET /products/category-list`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
+- **Users Page** (`/users`): Displays users with filtering and search functionality.
+- **Products Page** (`/products?category=all` / `/products?category=laptops`): Displays products with category filtering.
+- **Sidebar**: Can be expanded or collapsed for better navigation.
 
-### `npm run eject`
+## Deployment
+To build the project for production:
+```sh
+npm run build
+```
+The build files will be available in the `build/` directory, ready for deployment.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## License
+This project is open-source and available under the MIT License.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
