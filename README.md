@@ -75,6 +75,15 @@ npm run build
 ```
 The build files will be available in the `build/` directory, ready for deployment.
 
+## Screenshots
+Here are some screenshots showcasing the project:
+
+### Products Page
+![Products Page](screenshots/products-screen.png)
+
+### Users Page
+![Users Page](screenshots/users-screen.png)
+
 ## License
 This project is open-source and available under the MIT License.
 
